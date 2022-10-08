@@ -1,15 +1,36 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
     <channel>
-        <title>All Posts - My New Hugo Site</title>
-        <link>http://example.org/posts/</link>
-        <description>All Posts | My New Hugo Site</description>
-        <generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Wed, 05 Oct 2022 18:18:02 &#43;0200</lastBuildDate><atom:link href="http://example.org/posts/" rel="self" type="application/rss+xml" /><item>
-    <title>Prueba de mi primer post</title>
-    <link>http://example.org/posts/my-first-post/</link>
+        <title>All Posts - Práctica 1. Despliegue página web estática</title>
+        <link>http://localhost:1313/posts/</link>
+        <description>All Posts | Práctica 1. Despliegue página web estática</description>
+        <generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Fri, 07 Oct 2022 18:46:14 &#43;0200</lastBuildDate><atom:link href="http://localhost:1313/posts/" rel="self" type="application/rss+xml" /><item>
+    <title>Acerca de mi</title>
+    <link>http://localhost:1313/posts/acercademi/</link>
+    <pubDate>Fri, 07 Oct 2022 18:46:14 &#43;0200</pubDate>
+    <author>Author</author>
+    <guid>http://localhost:1313/posts/acercademi/</guid>
+    <description><![CDATA[¿Quién soy? Antes de comenzar me gustaría hacer una breve introducción sobre mí, mi nombre es Ángel Suárez Pérez y soy estudiante de 2º ASIR en el instituto Gonzalo Nazareno
+Relacionado con lo que estoy estudiando a día de hoy, lo que más me llama la atención y en lo que me gu&gt; especializarme en un futuro es en SAD (Seguridad y Alta Disponibilidad)
+En cuanto a mis aficiones entre ellas se encuentran las siguientes:]]></description>
+</item>
+<item>
+    <title>Documentación sobre vagrant y ansible</title>
+    <link>http://localhost:1313/posts/documentacionvagans/</link>
     <pubDate>Wed, 05 Oct 2022 18:18:02 &#43;0200</pubDate>
     <author>Author</author>
-    <guid>http://example.org/posts/my-first-post/</guid>
-    <description><![CDATA[]]></description>
+    <guid>http://localhost:1313/posts/documentacionvagans/</guid>
+    <description><![CDATA[¿Qué es Ansible? Es un Software de gestión de la conguración (CMS) Nos permite “declarar” la conguración de máquinas, para llevarla a cabo de forma automática Desarrollado principalmente por Red Hat: Pag. Ansible Escrito en Python Primera versión: 2012 Arquitectura push. Se indica la conguración desde la máquina donde está instalado ansible No utiliza ningún agente: ssh Jugadas (plays) y libros de jugadas (playbooks) en YAML Conceptos Módulos y plugins: Distintas funciones predenidas que nos permiten realizar una acción: copiar un chero, instalar paquetes, .]]></description>
+</item>
+<item>
+    <title>Trabajar con git y GitHub</title>
+    <link>http://localhost:1313/posts/trabajargit/</link>
+    <pubDate>Wed, 05 Oct 2022 18:18:02 &#43;0200</pubDate>
+    <author>Author</author>
+    <guid>http://localhost:1313/posts/trabajargit/</guid>
+    <description><![CDATA[Como trabajar con git y GitHub En esta presentación veremos acerca de como trabajar con el comando git y con github desde nuestra terminal
+Introducción El paquete con el que vamos a trabajar es el paquete git, para ello instalamos: apt install git
+Lo primero que tendríamos que hacer al instalar git es iniciar sesión en tu cuenta de GitHub, para ello utilizamos los comandos:
+git config --global user.name &quot;Usuario&quot; git config --global user.]]></description>
 </item>
 </channel>
 </rss>

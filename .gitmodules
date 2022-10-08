@@ -4,3 +4,18 @@
 [submodule "themes/LoveIt"]
 	path = themes/LoveIt
 	url = https://github.com/dillonzq/LoveIt.git
+[submodule "hugo-theme-hello-friend"]
+	path = hugo-theme-hello-friend
+	url = https://github.com/panr/hugo-theme-hello-friend.git
+[submodule "themes/hugo-theme-hello-friend"]
+	path = themes/hugo-theme-hello-friend
+	url = https://github.com/panr/hugo-theme-hello-friend.git
+[submodule "themes/graysx-hugo"]
+	path = themes/graysx-hugo
+	url = https://github.com/akatiggerx04/graysx-hugo.git
+[submodule "themes/hugo-theme-ladder"]
+	path = themes/hugo-theme-ladder
+	url = https://github.com/guangzhengli/hugo-theme-ladder.git
+[submodule "themes/beautifulhugo"]
+	path = themes/beautifulhugo
+	url = https://github.com/halogenica/beautifulhugo.git

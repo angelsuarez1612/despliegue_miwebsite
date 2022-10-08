@@ -1,4 +1,33 @@
-baseURL = 'http://example.org/'
+baseURL = 'http://localhost:1313/'
 languageCode = 'en-us'
-title = 'My New Hugo Site'
+title = 'Práctica 1. Despliegue página web estática'
 theme = "LoveIt"
+
+[menu]
+  [[menu.main]]
+	identifier = "Acerca de mi"
+	name = "Acerca de mi"
+	title = "Acerca de mi"
+	url = "/posts/acercademi"
+	weight = 0
+
+  [[menu.main]]
+        identifier = "Trabajar Git"
+        name = "Trabajar Git"
+        title = "Trabajar Git"
+        url = "/posts/trabajargit"
+        weight = 0
+
+  [[menu.main]]
+        identifier = "DocVagans"
+        name = "Doc. Vagrant y Ansible"
+        title = "DocVagans"
+        url = "/posts/documentacionvagans"
+        weight = 0
+
+  [[menu.main]]
+	identifier = "posts"
+	name = "Todos los posts"
+	title = "Posts"
+	url = "/posts/"
+	weight = 0
